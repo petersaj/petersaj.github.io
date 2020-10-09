@@ -589,15 +589,10 @@
 						font-size: 2em;
 						line-height: 1.5em;
 					}	
-				ul.social li:hover
-				{
-					display: inline-block;
-					width: 3em;
-					height: 3em;
-					text-align: center;
-					border-radius: 5px;
-					background: #ffffff;
-				}			
+					ul.social li a:hover
+					{
+						background: #ffffff;
+					}			
 
 		ol
 		{
