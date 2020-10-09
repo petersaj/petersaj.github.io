@@ -618,6 +618,8 @@
 	.icon {
 		position: relative;
 		text-decoration: none;
+		width: 3em;
+		height: 3em;
 	}
 
 		.icon:before {
