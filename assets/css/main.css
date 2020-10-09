@@ -112,7 +112,7 @@ input, select, textarea {
 	}
 
 	i, em {
-		font-style: italic;
+		font-style: normal;
 	}
 
 	sub {
