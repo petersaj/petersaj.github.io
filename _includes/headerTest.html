@@ -10,21 +10,13 @@
 					<ul>
 			
 				{% assign current = page.url | downcase | split: '/' %}
-					<li {% if current[1] == 'left-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/left-sidebar.html">Science</a></li>
-					<li {% if current[1] == 'right-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/right-sidebar.html">Right Sidebar</a></li>
-					<li {% if current[1] == 'no-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/no-sidebar.html">No Sidebar</a></li>
+					<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/index.html">Home</a></li>
+					<li {% if current[1] == 'right-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/right-sidebar.html">CV</a></li>
+					<li {% if current[1] == 'no-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/no-sidebar.html">Publications</a></li>
 
 
 				</ul>
 				</nav>
-
-			<!-- Banner -->
-			<section id="banner">
-					<header>
-			<h2>What's happening?</h2>
-					<p>this is banner subtext</p>
-					</header>
-				</section>
 
 					
 		</section>
