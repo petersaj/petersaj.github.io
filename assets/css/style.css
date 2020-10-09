@@ -592,6 +592,7 @@
 					ul.social li a:hover
 					{
 						background: #ffffff;
+						width: 10em;
 					}			
 
 		ol
