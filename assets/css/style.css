@@ -390,7 +390,7 @@
 			.image img
 			{
 				display: block;
-				width: 10%;
+				width: 100%;
 			}
 
 			.image.centered
@@ -402,7 +402,7 @@
 				.image.centered img
 				{
 					margin: 0 auto;
-					width: auto;
+					width: 10%; /auto;/
 				}
 
 			.image.featured
