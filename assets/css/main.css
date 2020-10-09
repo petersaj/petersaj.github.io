@@ -2092,7 +2092,7 @@ input, select, textarea {
 
 			#nav > ul > li {
 				display: inline-block;
-				font-style: italic;
+				font-style: normal
 				margin: 0 0.35em 0 0.35em;
 			}
 
