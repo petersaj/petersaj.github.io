@@ -3,7 +3,6 @@ description: Andy Peters - Neuroscience
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Contact
 email: peters.andrew.j@gmail.com
 twitter: @flickerfusion
 googlescholar: kJ_SaH8AAAAJ
