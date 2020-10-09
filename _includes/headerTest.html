@@ -3,13 +3,13 @@
 		<section id="header">
 
 			<!-- Logo -->
-				<h1><a href="index.html">Hover color2</a></h1>
+				<h1><a href="index.html">academicons add</a></h1>
 
 			<!-- Nav -->
 				<nav id="nav">
 					<ul>
 			
-				{% assign current = page.url | downcase | split: '/' %}
+				{% assign current = page.url | split: '/' %}
 					<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/index.html">Home</a></li>
 					<li {% if current[1] == 'right-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/right-sidebar.html">CV</a></li>
 					<li {% if current[1] == 'no-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/no-sidebar.html">Publications</a></li>
