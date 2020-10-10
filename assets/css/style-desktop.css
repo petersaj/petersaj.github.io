@@ -155,17 +155,17 @@
 
 	#header-wrapper
 	{
-		padding: 4.5em 0 4em 0;
+		padding: 1em 0 1em;
 	}
 
 	#main-wrapper
 	{
-		padding: 4em 0 4em 0;
+		padding: 0 0 0;
 	}
 
 	#footer-wrapper
 	{
-		padding: 4em 0 4em 0;
+		padding: 2em 0 2em;
 	}
 
 		#footer-wrapper header
