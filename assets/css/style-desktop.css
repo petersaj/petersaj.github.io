@@ -218,6 +218,7 @@
 		{
 			display: inline-block;
 			font-style: normal;
+			font-size: 18pt;
 			margin: 0 0.35em 0 0.35em;
 		}
 		
@@ -241,7 +242,7 @@
 		
 			#nav > ul > li:hover > a
 			{
-				background: #e8b5b5;
+				background: #8d67a8;
 			}
 			
 		#nav > ul > li.active
@@ -259,7 +260,7 @@
 		
 			#nav > ul > li.current > a
 			{
-				background: #d52349;
+				background: #8d67a8;
 				color: #fff !important;
 				font-weight: 700;
 			}
