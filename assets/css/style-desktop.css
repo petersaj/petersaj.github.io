@@ -373,11 +373,9 @@
 
 	#main
 	{
-		position: relative;
-		padding: 0 10em 0;
-		margin: 0 0 1.5em;
+
 		font-size: 1.5em;
-		overflow-wrap: normal;
+		
 	}
 
 /*********************************************************************************/
