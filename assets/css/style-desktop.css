@@ -243,6 +243,7 @@
 			#nav > ul > li:hover > a
 			{
 				background: #8d67a8;
+				opacity: 50%;
 			}
 			
 		#nav > ul > li.active
