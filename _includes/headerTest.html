@@ -12,13 +12,13 @@
 				{% assign current = page.url | split: '/' %}
 					<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/index.html">Home</a></li>
 					<li {% if current[1] == 'cv.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/cv.html">CV</a></li>
-					<li {% if current[1] == 'no-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/no-sidebar.html">Publications</a></li>
-					<li {% if current[1] == 'no-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/no-sidebar.html">Data</a></li>
+					<li {% if current[1] == 'publications.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/publications.html">Publications</a></li>
+					<li {% if current[1] == 'data.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/data.html">Data</a></li>
 
 					<li>
-							<a href="">Code</a>
+							<a href="{{ site.baseurl }}/code.html">Code</a>
 							<ul>
-								<li><a href="{{ site.baseurl }}/blog">Github</a></li>
+								<li><a href="#">Github</a></li>
 								<li><a href="#">Widefield</a></li>
 								<li><a href="#">Electrophysiology</a></li>
 								<li><a href="#">Plotting</a></li>
