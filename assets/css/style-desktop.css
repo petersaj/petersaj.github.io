@@ -242,8 +242,7 @@
 		
 			#nav > ul > li:hover > a
 			{
-				background: #8d67a8;
-				font-color: #ffffff;
+				background: #d6d6d6;
 			}
 			
 		#nav > ul > li.active
@@ -252,7 +251,7 @@
 		
 			#nav > ul > li.active > a
 			{
-				background: #f3f3f3;
+				background: #d6d6d6;
 			}
 			
 		#nav > ul > li.current
