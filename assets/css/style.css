@@ -732,6 +732,8 @@
 		background: #d1d1d1;
 		padding: 0 2em 0;
 		position: relative;
+		margin: 0 auto;
+		word-wrap: normal;
 	}
 
 	#footer-wrapper
