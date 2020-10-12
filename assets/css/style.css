@@ -554,7 +554,6 @@
 
 			ul.social
 			{
-				overflow: hidden;
 				cursor: default;
 			}
 
@@ -730,7 +729,6 @@
 	#main-wrapper
 	{
 		background: #ffffff;
-		overflow: hidden;
 	}
 
 		#main-wrapper:before
