@@ -27,7 +27,7 @@
 
 		#nav > ul > li
 		{
-			display: inline-block;
+			display: inline;
 			font-style: normal;
 			font-size: 14pt;
 			margin: 0 0.35em 0 0.35em;
