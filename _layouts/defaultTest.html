@@ -10,9 +10,9 @@
 
 	<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 	<script src="{{ site.baseurl }}/assets/js/jquery.dropotron.min.js"></script>
-
 	<script src="{{ site.baseurl }}/assets/js/init.js"></script>
-	<noscript>\
+	<noscript>
+		<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/skel.css" />
 		<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/style.css" />
 		<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/style-desktop.css" />
 	</noscript>
@@ -27,7 +27,7 @@
 <div id="main-wrapper">
 
 {{ content }}
-noskel
+newskel
 </div>
 
 {% include footerTest.html %}
