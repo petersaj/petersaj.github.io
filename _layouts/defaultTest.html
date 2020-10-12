@@ -7,7 +7,7 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
-	<!--[if lte IE 8]><script src="{{ site.baseurl }}/assets/css/ie/html5shiv.js"></script><![endif]-->
+
 	<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 	<script src="{{ site.baseurl }}/assets/js/jquery.dropotron.min.js"></script>
 	<script src="{{ site.baseurl }}/assets/js/skel.min.js"></script>
@@ -21,11 +21,16 @@
 	<!-- Font Awesome/Academicons -->
 	<link rel="stylesheet" href="{{ "/assets/fonts/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
 	<link rel="stylesheet" href="{{ "/assets/fonts/academicons/css/academicons.min.css" | prepend: site.baseurl }}">
-		<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie/v8.css" /><![endif]-->
 </head>
 
 {% include headerTest.html %}
 
+
+<div id="main-wrapper">
+
+{{ content }}
+
+</div>
 
 {% include footerTest.html %}
 
