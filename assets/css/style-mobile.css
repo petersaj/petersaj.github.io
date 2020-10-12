@@ -5,54 +5,6 @@
 /* Mobile UI                                                                     */
 /*********************************************************************************/
 
-	#titleBar
-	{
-	}
-
-		#titleBar .title
-		{
-			display: none;
-		}
-
-	#titleBar .toggle
-	{
-		width: 80px;
-		height: 60px;
-	}
-
-		#titleBar .toggle:before
-		{
-			font-family: FontAwesome;
-			text-decoration: none;
-			font-style: normal;
-			font-weight: normal;
-			-webkit-font-smoothing:antialiased;
-			-moz-osx-font-smoothing:grayscale;
-
-			content: '\f0c9';
-			display: block;
-			position: absolute;
-			left: 10px;
-			top: 10px;
-			width: 50px;
-			height: 40px;
-			line-height: 40px;
-			font-size: 18px;
-			color: #fff;
-			text-align: center;
-			background: rgba(150,150,150,0.75);
-			border-radius: 5px;
-		}
-
-		#titleBar .toggle:active
-		{
-		}
-
-			#titleBar .toggle:active:before
-			{
-				background-color: rgba(150,150,150,1);
-			}
-
 	#navPanel
 	{
 		color: #858484;
