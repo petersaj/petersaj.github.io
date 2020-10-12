@@ -559,7 +559,7 @@
 
 				ul.social li
 				{
-					display: inline;
+					display: inline-block;
 				}
 
 				ul.social li:first-child
@@ -569,7 +569,7 @@
 
 				ul.social li a
 				{
-					display: inline;
+					display: inline-block;
 					width: 3em;
 					height: 3em;
 					text-align: center;
