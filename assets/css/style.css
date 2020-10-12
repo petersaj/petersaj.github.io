@@ -724,12 +724,14 @@
 	{
 		background: #ffffff;
 		padding: 2em 0;
+		position: relative;
 	}
 
 	#main-wrapper
 	{
-		background: #ffffff;
+		background: #fffff0;
 		padding: 0 2em 0;
+		position: relative;
 	}
 
 	#footer-wrapper
@@ -737,6 +739,7 @@
 		padding: 2em 25px;
 		text-align: center;
 		color: #858484;
+		position: relative;
 	}
 
 
