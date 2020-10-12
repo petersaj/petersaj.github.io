@@ -716,35 +716,6 @@
 				margin: 0;
 			}
 
-/*********************************************************************************/
-/* Wrappers                                                                      */
-/*********************************************************************************/
-
-	#header-wrapper
-	{
-		background: #ffffff;
-		padding: 0 0 0;
-		position: relative;
-		width: auto;
-	}
-
-	#main-wrapper
-	{
-		background: #d1d1d1;
-		padding: 0 0 0;
-		position: relative;
-		margin: 0 auto;
-		word-wrap: normal;
-	}
-
-	#footer-wrapper
-	{	
-		padding: 0 0 0;
-		text-align: center;
-		color: #858484;
-		position: relative;
-	}
-
 
 /*********************************************************************************/
 /* Header                                                                        */
