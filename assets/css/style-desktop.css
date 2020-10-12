@@ -155,29 +155,17 @@
 
 	#header-wrapper
 	{
-		padding: 0 0 0;
 	}
 
 	#main-wrapper
 	{
-		padding: 0 0 0;
 	}
 
 	#footer-wrapper
 	{
-		padding: 0 0 0;
 	}
 
-		#footer-wrapper header
-		{
-			margin: 0 0 0;
-		}
-		
-			#footer-wrapper header h2
-			{
-				font-size: 1.75em;
-			}
-
+	
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
