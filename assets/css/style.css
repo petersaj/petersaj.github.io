@@ -723,14 +723,12 @@
 
 	#header-wrapper
 	{
-		position: relative;
 		background: #ffffff;
 		padding: 2em 0;
 	}
 
 	#main-wrapper
 	{
-		position: relative;
 		background: #ffffff;
 		overflow: hidden;
 	}
@@ -761,7 +759,6 @@
 	{	
 		padding: 2em 25px;
 		text-align: center;
-		position: relative;
 		color: #858484;
 	}
 
