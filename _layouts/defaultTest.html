@@ -23,11 +23,21 @@
 	<link rel="stylesheet" href="{{ "/assets/fonts/academicons/css/academicons.min.css" | prepend: site.baseurl }}">
 </head>
 
-{% include headerTest.html %}
-<div class="flex-container">
-    {{ content }}    
+
+<div id="main-wrapper">
+    <section id="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    
+                    {{ content }}
+                    
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
-{% include footerTest.html %}
+
 
 </html>
 
