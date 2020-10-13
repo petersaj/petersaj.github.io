@@ -733,14 +733,14 @@
 		padding: 0 0 0;
 		position: relative;
 		margin: 0 auto;
-		word-wrap: normal;
 	}
 
 	#footer-wrapper
 	{	
-		padding: 0 0 0;
+        background: #858484;
+		padding: 1em 0 1em;
 		text-align: center;
-		color: #858484;
+        margin: 0 auto;
 		position: relative;
 	}
 
