@@ -16,7 +16,7 @@
 	body
 	{
 		background: #252122;
-		background-image: url('');
+		background-image: url('/assets/images/monk.jpeg');
 	}
 
 		body.is-loading * {
