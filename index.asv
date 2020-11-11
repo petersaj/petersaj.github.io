@@ -1,0 +1,16 @@
+---
+bg: "monk.jpeg"
+layout: default
+crawlertitle: "Andy Peters Neuroscience"
+title: "Andy Peters"
+summary: "Neuroscience"
+---
+
+<
+
+{% for post in site.posts limit: 5 %}
+  <article class="index-page">
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    {{ post.excerpt }}
+  </article>
+{% endfor %}
