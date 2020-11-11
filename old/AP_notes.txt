@@ -1,7 +1,0 @@
-index.html - main page
-
-layouts - arrangements of page types
-includes - blocks that can be included in layouts
-
-assets/css/style.css - cross-platform style
-assets/css/style-desktop.css - desktop style
