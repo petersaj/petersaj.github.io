@@ -213,7 +213,12 @@ ul.accounts li
 
 ul.accounts li:first-child
 {
-    margin-left: 0;
+    padding: 0em 1em 1em;
+}
+
+ul.accounts li:last-child
+{
+    padding: 1em 1em 0em;
 }
 
 ul.accounts li a
