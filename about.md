@@ -1,10 +1,10 @@
 ---
 bg: "owl.jpg"
 layout: page
-title: "CV"
-crawlertitle: "Andy Peters CV"
+title: "About"
+crawlertitle: "Why and how this blog was created"
 permalink: /about/
-summary: "Stuff"
+summary: "About this blog"
 active: about
 ---
 
