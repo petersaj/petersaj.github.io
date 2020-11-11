@@ -208,13 +208,11 @@ ul.accounts li
 {
     display: inline-block;
     padding: 1em 1em 1em;
-    margin: 0em 0;
-    line-style-position: inside;
 }
 
 ul.accounts li:first-child
 {
-    margin-left: 0;
+    padding: 1em 0em 1em 1em;
 }
 
 ul.accounts li a
@@ -224,7 +222,6 @@ ul.accounts li a
     font-size: 2em;
     padding: 0.5em 0.5em;
     text-align: center;
-    vertical-align: middle;
     border-radius: 5px;
     background: #8d67a8;
     -moz-transition: all .25s ease-in-out;
