@@ -4,8 +4,8 @@ layout: page
 title: "CV"
 crawlertitle: "Andy Peters CV"
 permalink: /cv/
-summary: "Stuff"
-active: about
+summary: "Science experience"
+active: cv
 ---
 
 <div class=WordSection1>

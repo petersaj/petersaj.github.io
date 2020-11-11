@@ -1,9 +1,9 @@
 ---
 bg: "lighthouse.jpg"
 layout: page
-title: "Publications"
+title: "Science"
 crawlertitle: "Andy Peters Publications"
-permalink: /publications/
+permalink: /science/
 summary: "Stuff"
 active: about
 ---
