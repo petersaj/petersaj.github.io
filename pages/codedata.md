@@ -1,11 +1,11 @@
 ---
 bg: "lighthouse.jpg"
 layout: page
-title: "Code/Data"
+title: "Code & Data"
 crawlertitle: "Andy Peters Code/Data"
 permalink: /codedata/
 summary: "Shared scripts and datasets"
-active: about
+active: codedata
 ---
 
 This is where data will go

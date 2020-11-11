@@ -39,6 +39,11 @@ h4 { font-size: 1em; }
 h5 { font-size: .8em; }
 h6 { font-size: .6em; }
 
+ul{ 
+    margin: 0;
+    padding: 0;
+}
+
 .heading {
   font-size: 2.3em;
   text-transform: uppercase;
@@ -205,11 +210,6 @@ article a.btn {
 * Account links
 * ========================================================================== */
 
-ul{ 
-    margin: 0;
-    padding: 0;
-}
-
 ul.accounts li
 {
     display: inline-block;
@@ -240,6 +240,43 @@ ul.accounts li a
     {
         background: #b0b0b0;
     }			
+
+
+/*
+* Science links
+* ========================================================================== */
+
+ul.science li
+{
+    display: inline-block;
+    padding: 1em 1em 1em;
+}
+
+ul.accounts li:first-child
+{
+    margin-left: 0;
+}
+
+ul.accounts li a
+{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 2em;
+    padding: 0.5em 0.5em;
+    text-align: center;
+    border-radius: 5px;
+    background: #8d67a8;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    -ms-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+    ul.accounts li a:hover
+    {
+        background: #b0b0b0;
+    }			
+
 
 
 /*

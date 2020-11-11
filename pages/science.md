@@ -5,7 +5,7 @@ title: "Science"
 crawlertitle: "Andy Peters Publications"
 permalink: /science/
 summary: "Published projects"
-active: about
+active: science
 ---
 
 Publications to go here
