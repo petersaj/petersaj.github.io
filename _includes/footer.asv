@@ -17,9 +17,17 @@
         <i class="fa fa-github"></i>
     </p>
     
-    <p>
-        
+    <p>      
+        Trying account style
+        <ul class="accounts">
+            <li><a href="mailto:{{site.email}}"><i class="fa fa-envelope"></i></a></li>
+            <li><a href="https://www.twitter.com/{{site.twitter}}"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://scholar.google.com/citations?user={{site.googlescholar}}"><i class="ai ai-google-scholar">GoogleScholar</span></a></li>
+            <li><a href="https://orcid.org/{{site.orcid}}"><i class="ai ai-orcid"></i></a></li>
+            <li><a href="https://www.github.com/{{site.github}}"><i class="fa fa-github"></i></a></li>
+        </ul>
     </p>
+    
     
     
   <p>&copy; <span class="full-year"></span>Andy Peters</p>
