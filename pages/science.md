@@ -4,7 +4,7 @@ layout: page
 title: "Science"
 crawlertitle: "Andy Peters Publications"
 permalink: /science/
-summary: "Stuff"
+summary: "Published projects"
 active: about
 ---
 

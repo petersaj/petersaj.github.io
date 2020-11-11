@@ -42,6 +42,16 @@
   {% else %}
     <meta property="og:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}/bg.svg">
     <meta name="twitter:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}/bg.svg">
-  {% endif %}
+    {% endif %}
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2TV6M0BDDC"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        gtag('config', 'G-2TV6M0BDDC');
+    </script>
 
 </head>
