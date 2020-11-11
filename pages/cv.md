@@ -8,80 +8,6 @@ summary: "Stuff"
 active: about
 ---
 
-<html>
-
-<head>
-<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
-<meta name=Generator content="Microsoft Word 15 (filtered)">
-<title>Resume of Andrew Peters</title>
-<style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;}
-@font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
-@font-face
-	{font-family:"Myriad Pro";}
-@font-face
-	{font-family:"Bodoni MT";
-	panose-1:2 7 6 3 8 6 6 2 2 3;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin:0in;
-	margin-bottom:.0001pt;
-	font-size:12.0pt;
-	font-family:"Times New Roman",serif;}
- /* Page Definitions */
- @page WordSection1
-	{size:8.5in 11.0in;
-	margin:45.0pt 1.25in 45.0pt 1.25in;}
-div.WordSection1
-	{page:WordSection1;}
-@page WordSection2
-	{size:8.5in 11.0in;
-	margin:1.0in 1.0in 1.0in 1.0in;}
-div.WordSection2
-	{page:WordSection2;}
-@page WordSection3
-	{size:8.5in 11.0in;
-	margin:1.0in 1.0in 1.0in 1.0in;}
-div.WordSection3
-	{page:WordSection3;}
-@page WordSection4
-	{size:8.5in 11.0in;
-	margin:1.0in 1.0in 1.0in 1.0in;}
-div.WordSection4
-	{page:WordSection4;}
-@page WordSection5
-	{size:8.5in 11.0in;
-	margin:1.0in 1.0in 1.0in 1.0in;}
-div.WordSection5
-	{page:WordSection5;}
-@page WordSection6
-	{size:8.5in 11.0in;
-	margin:1.0in 1.0in 1.0in 1.0in;}
-div.WordSection6
-	{page:WordSection6;}
-@page WordSection7
-	{size:8.5in 11.0in;
-	margin:1.0in 1.0in 1.0in 1.0in;}
-div.WordSection7
-	{page:WordSection7;}
- /* List Definitions */
- ol
-	{margin-bottom:0in;}
-ul
-	{margin-bottom:0in;}
--->
-</style>
-
-</head>
-
-<body lang=EN-US link=blue vlink="#954F72">
-
 <div class=WordSection1>
 
 <p class=MsoNormal align=center style='text-align:center'><b><span
@@ -675,6 +601,3 @@ Research Forum, Sydney, Australia.</span></p>
 
 </div>
 
-</body>
-
-</html>
