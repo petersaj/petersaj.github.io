@@ -1,5 +1,5 @@
 ---
-bg: "lighthouse.jpg"
+bg: "andy-photo.jpg"
 layout: page
 title: "CV"
 crawlertitle: "Andy Peters CV"
