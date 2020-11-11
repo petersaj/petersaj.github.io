@@ -208,17 +208,13 @@ article a.btn {
 ul.accounts li
 {
     display: inline-block;
-    padding: 1em 1em 1em;
+    padding: 1em 0em 1em;
+    margin: 1em 0;
 }
 
 ul.accounts li:first-child
 {
-    padding: 0em 1em 1em;
-}
-
-ul.accounts li:last-child
-{
-    padding: 1em 1em 0em;
+    margin-left: 0;
 }
 
 ul.accounts li a
