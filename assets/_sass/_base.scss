@@ -10,7 +10,8 @@
   display: none;
 }
 
-
+a:link, a:visited { color: #422c4a; text-decoration: none; }
+a:hover { color: #8d67a8; }
 
 body {
   font: normal 17px/1.5 'PT Serif', "Helvetica Neue", "Helvetica", Arial, sans-serif;
@@ -24,8 +25,6 @@ body {
 
 article p {
   margin-bottom: 15px;
-  a:link, a:hover, a:focus, a:visited { color: #422c4a; text-decoration: none; }
-  a:hover { color: #8d67a8; }
 }
 
 h1, h2, h3, h4, h5, h6 {
