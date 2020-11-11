@@ -205,45 +205,37 @@ article a.btn {
 /*
 * Account links
 * ========================================================================== */
-ul
-		{
-		}
-ul.accounts
-			{
-				cursor: default;
-			}
+ul.accounts li
+{
+    display: inline-block;
+}
 
-				ul.accounts li
-				{
-					display: inline-block;
-				}
+ul.accounts li:first-child
+{
+    margin-left: 0;
+}
 
-				ul.accounts li:first-child
-				{
-					margin-left: 0;
-				}
-
-				ul.accounts li a
-				{
-					display: block;
-                    color: #ffffff;
-					font-size: 15px;
-					line-height: 1.5em;
-					width: 3em;
-					height: 3em;
-					text-align: center;
-					border-radius: 5px;
-					background: #8d67a8;
-					-moz-transition: all .25s ease-in-out;
-					-webkit-transition: all .25s ease-in-out;
-					-o-transition: all .25s ease-in-out;
-					-ms-transition: all .25s ease-in-out;
-					transition: all .25s ease-in-out;
-				}
-					ul.accounts li a:hover
-					{
-						background: #b0b0b0;
-					}			
+ul.accounts li a
+{
+    display: block;
+    color: #ffffff;
+    font-size: 4.5em;
+    line-height: 1.5em;
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    border-radius: 5px;
+    background: #8d67a8;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    -ms-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+    ul.accounts li a:hover
+    {
+        background: #b0b0b0;
+    }			
 
 
 /*
