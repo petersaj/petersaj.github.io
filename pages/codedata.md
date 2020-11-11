@@ -13,13 +13,12 @@ on my <a href = "https://www.github.com/{{site.github}}">github page</a>.
 I also contribute to the <a href = "https://www.github.com/{{site.github}}">
 Caradini/Harris lab github</a>.
 
-These repositories are intended for general use and are maintained:
+These repositories are intended for general use and maintained:
 <ul>
 
 <li><a href = "https://github.com/cortex-lab/allenCCF">allenCCF</a>: 
 tools to work with the Allen CCF atlas, I wrote the Neuropixels
 trajectory explorer 'allen_ccf_npx' </li>
-<li></li>
 
 <li><a href = "https://github.com/petersaj/AP_histology">AP_histology</a>: 
 a simple MATLAB pipeline to analyze histology images (including 
