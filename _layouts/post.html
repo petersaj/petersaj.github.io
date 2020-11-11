@@ -1,29 +1,39 @@
-{% include header.html %}
-<body>
-{% include nav.html %}
-<div id="main-wrapper">
-	<div class="container">
-		<div class="row">
-			<div class="12u">
+---
+layout: default
+---
+<article class="post">
 
-			<!-- Blog -->
-				<section>
-					<header class="major">
-						<h2>{{ page.title }}</h2>
-						<p>Posted {{ page.date | date_to_string }}</p>
-					</header>
-					<div class="row">
-						<div class="8u -2u">
-							<section class="box">
-								<a href="#" class="image featured"><img src="{{ site.baseurl }}{{ page.featured }}" alt="" /></a>
-								{{ page.content }}
-							</section>
-						</div>
-					</div>
-				</section>
+  <h1 class="post-title">{{ page.title }}</h1>
 
-			</div>
-		</div>
-	</div>
-</div>
-{% include footer.html %}
+  <p class="post-meta">
+    <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%d-%m-%Y" }}</time>
+
+    {% if page.author %}
+      &nbsp;/&nbsp;
+      <span>{{ page.author }}</span>
+    {% endif %}
+  </p>
+
+  <div class="post-content">
+
+    {{ content }}
+
+    <div class="post-links">
+      {% if page.next.url %}
+        <a class="link-to-post" href="{{ page.next.url | relative_url}}">
+          <span class="link-to-post__next">&#10535; &nbsp;Next post</span>
+          <span class="link-to-post__title">{{ page.next.title }}</span>
+        </a>
+      {% endif %}
+
+      {% if page.previous.url %}
+        <a class="link-to-post" href="{{ page.previous.url | relative_url}}">
+          <span class="link-to-post__prev">&#10535; &nbsp;Previous post</span>
+          <span class="link-to-post__title">{{ page.previous.title }}</span>
+        </a>
+      {% endif %}
+    </div>
+
+  </div>
+
+</article>

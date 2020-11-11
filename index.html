@@ -1,14 +1,14 @@
 ---
-title: Front page
-layout: defaultTest
+bg: "rails.jpg"
+layout: default
+crawlertitle: "Jekyll blog"
+title: "Voyager"
+summary: "main page"
 ---
 
-
-<p>
-
-<img src="/assets/images/andy_photo.jpg" alt="Andy photo" style="float:left;width:200px;margin:0 2em 0"></a>
-
-I am a postdoc neuroscientist in the Carandini/Harris lab at University College London
-
-</p>
-
+{% for post in site.posts limit: 5 %}
+  <article class="index-page">
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    {{ post.excerpt }}
+  </article>
+{% endfor %}
