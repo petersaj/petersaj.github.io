@@ -21,7 +21,7 @@ tools to work with the Allen CCF atlas, I wrote the Neuropixels
 trajectory explorer 'allen_ccf_npx' </li>
 <li></li>
 
-<li><a href = "https://github.com/petersaj/AP_histology>AP_histology</a>: 
+<li><a href = "https://github.com/petersaj/AP_histology">AP_histology</a>: 
 a simple MATLAB pipeline to analyze histology images (including 
 extracting Neuropixels trajectories)</li>
 
