@@ -208,6 +208,7 @@ article a.btn {
 ul.accounts li
 {
     display: inline-block;
+    margin-left: 1em;
 }
 
 ul.accounts li:first-child
@@ -217,7 +218,8 @@ ul.accounts li:first-child
 
 ul.accounts li a
 {
-    display: block;
+    padding: 1em 1em 1em;
+    display: inline-block;
     color: #ffffff;
     font-size: 4.5em;
     line-height: 1.5em;
@@ -234,6 +236,7 @@ ul.accounts li a
 }
     ul.accounts li a:hover
     {
+        font-size: 10em;
         background: #b0b0b0;
     }			
 
