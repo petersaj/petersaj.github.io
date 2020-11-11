@@ -1,11 +1,11 @@
 ---
 bg: "lighthouse.jpg"
 layout: page
-title: "CV"
+title: "Data"
 crawlertitle: "Andy Peters CV"
-permalink: /cv/
+permalink: /data/
 summary: "Stuff"
 active: about
 ---
 
-CV to go here
+This is where data will go
