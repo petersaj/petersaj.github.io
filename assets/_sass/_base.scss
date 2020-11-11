@@ -226,6 +226,9 @@ ul.accounts
 				ul.accounts li a
 				{
 					display: block;
+                    color: #ffffff;
+					font-size: 15px;
+					line-height: 1.5em;
 					width: 3em;
 					height: 3em;
 					text-align: center;
@@ -237,13 +240,6 @@ ul.accounts
 					-ms-transition: all .25s ease-in-out;
 					transition: all .25s ease-in-out;
 				}
-
-					ul.accounts li a:before
-					{
-						color: #ffffff;
-						font-size: 4.5em;
-						line-height: 1.5em;
-					}	
 					ul.accounts li a:hover
 					{
 						background: #b0b0b0;
