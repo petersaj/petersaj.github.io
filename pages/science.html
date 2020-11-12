@@ -8,7 +8,7 @@ summary: "Published projects"
 active: science
 ---
 
-<img src="{{ site.images }}/figtest.png" alt="test image">
+<a class="science-image"><img src="{{ site.images }}/figtest.png" alt="test image"></a>
 
 
 <ul class="papers">
@@ -19,14 +19,5 @@ active: science
 </ul>
 
     
-
-{% for post in site.posts offset: 0 limit: 5 %}
-<li>
-    <img src="{{ url({{ site.images | relative_url }}/{{ page.image }})}}">
-    <span class="date">{{ post.date | date: "%B"}} <strong>{{ post.date | date: "%d"}}</strong></span>
-    <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-    {{ post.excerpt }}
-</li>
-{% endfor %}
 
 
