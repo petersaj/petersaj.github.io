@@ -95,6 +95,22 @@
   .nav-main a {
     font-size: 14px;
   }
+
+  .sidebar {
+    width: $aside-width;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-attachment: scroll;
+    z-index: 200;
+    display: block;
+  }
+
+  .cover {
+    height: 100%;
+  }
+
 }
 
 
