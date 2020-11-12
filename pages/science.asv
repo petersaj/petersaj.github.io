@@ -9,8 +9,7 @@ active: science
 ---
 
 These are my main publications (for papers I have helped out as a
-middle author, see my full 
-<a href="https://scholar.google.com/citations?user={{site.googlescholar}}">Google Scholar</a> 
+middle author, see my full <a href="https://scholar.google.com/citations?user={{site.googlescholar}}">Google Scholar</a> 
 or <a href="https://orcid.org/{{site.orcid}}">Orcid</a>):
 
 <div class="scibox">
@@ -19,12 +18,7 @@ or <a href="https://orcid.org/{{site.orcid}}">Orcid</a>):
     <h2>This is a longer description of the paper.</h2>    
 </div>
 
-<div class="scibox">
-    <img class="science-image" src="{{ site.images }}/monk.jpeg" alt="test image">
-    <h1>Field study of Monkens.</h1>
-    <h2>This was a dangerous trek into the jungle to observe
-     monkens in their natural habitat.</h2>    
-</div>
+
 
 
 
