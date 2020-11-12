@@ -1,0 +1,48 @@
+---
+bg: "lighthouse.jpg"
+layout: page
+title: "Science"
+crawlertitle: "Andy Peters Publications"
+permalink: /science/
+summary: "Published projects"
+active: true
+---
+
+These are my main publications (for full list, see 
+<a href="https://scholar.google.com/citations?user={{site.googlescholar}}">Google Scholar</a> 
+or <a href="https://orcid.org/{{site.orcid}}">Orcid</a>):
+
+<div class="scibox">
+    <img class="science-image" src="{{ site.images }}/figtest.png" alt="test image">
+    <h4>Emergence of reproducible spatiotemporal activity during motor learning.</h4>
+    <h5>Peters AJ, Chen S, Komiyama T, Nature 2014</h5>
+    <p>We tracked the activity of neurons in the motor cortex
+     over weeks while mice learned a lever-press movement.
+     Movements were accompanied by Different neurons were active and at different times during movement
+     early in learning, but activity became consistent as mice became
+     better. 
+     Activity was variable early in learning, but became consistent
+     as mice became better.</p>
+</div>
+
+<div class="scibox">
+    <img class="science-image" src="{{ site.images }}/monk.jpeg" alt="test image">
+    <h4>Field study of Monkens.</h4>
+    <p>This was a dangerous trek into the jungle to observe
+     monkens in their natural habitat.</p>    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
