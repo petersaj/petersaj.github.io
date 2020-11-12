@@ -338,19 +338,19 @@ article {
 * Science content boxes
 * ========================================================================== */
 .scibox{
-  width: 80%;
+  display: inline-block;
+  width: 100%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
+  margin: 10px 0px;
 }
 
-.scibox h1{
-    font-size: 2em;
-    font-
+.scibox h4{
+    color: #8d67a8;
+    line-height: 0;
 }
 
-.scibox h2{
-    font-size: 1em;
+.scibox p{
 }
 
 
