@@ -14,16 +14,16 @@ or <a href="https://orcid.org/{{site.orcid}}">Orcid</a>):
 <br>
 
 <div class="scibox">
-    <img class="science-image" src="{{ site.images }}/paper_2021.png" alt="test image">
+    <img class="science-image" src="{{ site.images }}/paper_2017b.png" alt="test image">
     <h4>Striatal activity topographically reflects cortical activity</h4>
     <h5>Peters AJ, Fabre JMJ, Steinmetz NA, Harris KD, Carandini M, Nature in press</h5>
     <p>
         Patterns of summed activity are matched between topographically
         connected regions of the cortex and striatum, changing only in 
-        gain with learning. This suggests cortical activity propagates 
-        untransformed through the basal ganglia and more effectively
-        after learning, which provides clues towards uncovering
-        the functions and mechanisms of the basal ganglia.
+        gain with learning. This suggests that learning causes cortical
+        activity to propagate untransformed through the basal ganglia, 
+        
+        
     </p>
 </div>
     
