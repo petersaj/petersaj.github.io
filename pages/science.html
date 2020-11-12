@@ -8,4 +8,20 @@ summary: "Published projects"
 active: science
 ---
 
-Publications to go here
+<ul class="papers">
+    <li>
+    <h3>This is a title test</h3>
+    This is a description test  
+</ul>
+
+    
+    
+{% for post in site.posts offset: 0 limit: 5 %}
+<li>
+    <span class="date">{{ post.date | date: "%B"}} <strong>{{ post.date | date: "%d"}}</strong></span>
+    <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+    {{ post.excerpt }}
+</li>
+{% endfor %}
+
+

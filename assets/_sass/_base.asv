@@ -272,7 +272,7 @@ ul.papers .date
     padding: 0.5em 0.75em 0 1em;
 }
 
-    ul.papers .date:after
+    ul.papers .papers:after
     {
         content: '';
         position: absolute;
@@ -283,30 +283,30 @@ ul.papers .date
         border-bottom: solid 1.8em transparent;
     }
 
-    ul.papers .date strong
+    ul.dates .date strong
     {
         display: block;
         font-size: 1.75em;
         padding-top: 0.15em;
     }
 
-ul.papers h3
+ul.dates h3
 {
     font-size: 1.1em;
 }
 
-ul.papers p
+ul.dates p
 {
     margin: 0;
 }
 
-ul.papers li:first-child
+ul.dates li:first-child
 {
     border-top: 0;
     padding-top: 0;
 }
 
-    ul.papers li:first-child .date
+    ul.dates li:first-child .date
     {
         top: 0;
     }
