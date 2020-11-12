@@ -19,7 +19,7 @@ active: science
     
 {% for post in site.posts offset: 0 limit: 5 %}
 <li>
-    <img src="{{ url({{ site.images | relative_url }}/{{ page.image }})}}">
+    <
     <span class="date">{{ post.date | date: "%B"}} <strong>{{ post.date | date: "%d"}}</strong></span>
     <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
     {{ post.excerpt }}
