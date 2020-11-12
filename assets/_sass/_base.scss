@@ -245,8 +245,11 @@ ul.accounts li a
 * Science images
 * ========================================================================== */
 .science-image{
-    height: 500px;
+    display: inline-block;
+    height: 100px;
     margin: 30px;
+    outline: 1;
+    float: left;
 }
 
 
