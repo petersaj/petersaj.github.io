@@ -103,6 +103,13 @@
     background-size: 100vm auto;
 }
 
+.cover {
+    height: 75%;
+  }
+
+main {
+padding: 0 1em;
+}
 
 @media screen and (min-width: $break-point) {
   table {
