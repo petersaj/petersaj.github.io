@@ -103,9 +103,11 @@
     background-size: 100vm auto;
 }
 
+.sidebar,
 .cover {
-    height: 75%;
-  }
+  width: 100%;
+  height: 75vh;
+}
 
 main {
 padding: 0 1em;
