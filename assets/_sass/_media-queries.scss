@@ -97,7 +97,11 @@
   }
 }
 
-  .sidebar { display: block; }
+  .sidebar { 
+    display: block;
+    background-position: top center;
+    background-size: auto;
+}
 
 
 @media screen and (min-width: $break-point) {
