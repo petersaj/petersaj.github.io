@@ -270,14 +270,13 @@ ul.codedata li:first-child
 {
     display: inline-block;
     width: 100%;
+    background: #8d67a8;
     color: #ffffff;
     font-size: 1em;
     padding: 0.5em 0.5em;
     margin: 0 0.5em;
     text-align: center;
-    position: relative;
     border-radius: 5px;
-    background: #8d67a8;
     -moz-transition: all .25s ease-in-out;
     -webkit-transition: all .25s ease-in-out;
     -o-transition: all .25s ease-in-out;
