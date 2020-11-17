@@ -252,7 +252,7 @@ ul.accounts li a
 }
 
 /*
-* Code/data links
+* Code/data list and buttons
 * ========================================================================== */
 
 ul.codedata li
@@ -266,7 +266,7 @@ ul.codedata li:first-child
     margin-left: 0;
 }
 
-ul.codedata li repo
+.repo
 {
     display: inline-block;
     color: #ffffff;
@@ -283,7 +283,7 @@ ul.codedata li repo
     transition: all .25s ease-in-out;
     float: left;
 }
-    ul.codedata li repo:hover
+    .repo:hover
     {
         background: #b0b0b0;
     }			
