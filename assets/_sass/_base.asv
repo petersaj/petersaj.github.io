@@ -269,7 +269,7 @@ ul.codedata li:first-child
 .repo
 {
     display: inline-block;
-    width: 100%;
+    
     color: #ffffff;
     font-size: 1em;
     padding: 0.5em 0.5em;
