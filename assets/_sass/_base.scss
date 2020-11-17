@@ -266,7 +266,7 @@ ul.codedata li:first-child
     margin-left: 0;
 }
 
-ul.codedata repo
+ul.codedata li repo
 {
     display: inline-block;
     color: #ffffff;
@@ -283,7 +283,7 @@ ul.codedata repo
     transition: all .25s ease-in-out;
     float: left;
 }
-    ul.codedata repo:hover
+    ul.codedata li repo:hover
     {
         background: #b0b0b0;
     }			
