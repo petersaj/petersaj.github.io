@@ -252,21 +252,21 @@ ul.accounts li a
 }
 
 /*
-* Science links
+* Code/data links
 * ========================================================================== */
 
-ul.science li
+ul.codedata li
 {
     display: inline-block;
     padding: 1em 1em 1em;
 }
 
-ul.science li:first-child
+ul.codedata li:first-child
 {
     margin-left: 0;
 }
 
-ul.science li repo
+ul.codedata repo
 {
     display: inline-block;
     color: #ffffff;
@@ -283,7 +283,7 @@ ul.science li repo
     transition: all .25s ease-in-out;
     float: left;
 }
-    ul.science li a:hover
+    ul.codedata repo:hover
     {
         background: #b0b0b0;
     }			
