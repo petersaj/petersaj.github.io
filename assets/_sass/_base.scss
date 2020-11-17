@@ -224,7 +224,7 @@ ul.accounts li:first-child
 ul.accounts li a
 {
     display: inline-block;
-    color: #ffffff;
+    color: #ffffff; !important;
     font-size: 2em;
     padding: 0.5em 0.5em;
     text-align: center;
@@ -270,6 +270,7 @@ ul.codedata li:first-child
 {
     display: inline-block;
     width: 100%;
+    background: #8d67a8;
     color: #ffffff;
     font-size: 1em;
     padding: 0.5em 0.5em;
