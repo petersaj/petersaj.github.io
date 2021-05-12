@@ -361,7 +361,7 @@ article {
 * PDF viewer division
 * ========================================================================== */
 .pdf{
-    position: relative;
+    display: inline-block;
     height: 100%;
     width: 100%;
 }
